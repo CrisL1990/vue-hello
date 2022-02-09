@@ -11,8 +11,14 @@ const root = new Vue(
 
         methods: {
             imgToggle: function(){
-                this.visibility = "d-none";
-                console.log(this.visibility);
+                
+                if(this.visibility == ""){
+                    this.visibility = "d-none";
+                }
+                else{
+                    this.visibility = "";
+                }
+                
             }
         }
     }   
