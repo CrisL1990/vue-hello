@@ -5,7 +5,15 @@ const root = new Vue(
         data: {
             titolo: "Ciao mondo!",
             immagine: "Hello-world.png",
-            grandezzaImmagine: "size"
+            grandezzaImmagine: "size",
+            visibility: ""
         },
+
+        methods: {
+            imgToggle: function(){
+                this.visibility = "d-none";
+                console.log(this.visibility);
+            }
+        }
     }   
 );

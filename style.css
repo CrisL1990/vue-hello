@@ -9,3 +9,7 @@
     height: 100%;
     margin: auto;
 };
+
+.d-none{
+    display: none;
+}
