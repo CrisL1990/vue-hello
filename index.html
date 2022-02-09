@@ -16,7 +16,7 @@
         <button @click="imgToggle">Toggle immagine</button>
         
         <div>
-            <img v-bind:src="immagine" v-bind:class="grandezzaImmagine" alt="">
+            <img v-bind:src="immagine" v-bind:class="[grandezzaImmagine, visibility]" alt="">
         </div>
 
     </div>
