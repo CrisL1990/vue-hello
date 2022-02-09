@@ -4,7 +4,8 @@ const root = new Vue(
 
         data: {
             titolo: "Ciao mondo!",
-            immagine: "Hello-world.png"
+            immagine: "Hello-world.png",
+            grandezzaImmagine: "size"
         },
     }   
 );
