@@ -3,9 +3,8 @@ const root = new Vue(
         el: "#root",
 
         data: {
-
-            titolo: "Ciao mondo!"
-
+            titolo: "Ciao mondo!",
+            immagine: "Hello-world.png"
         },
     }   
 );
